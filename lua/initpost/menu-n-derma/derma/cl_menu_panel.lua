@@ -117,11 +117,11 @@ function PANEL:InitializeMarkup()
 
     if hg.PluvTown.Active then
         self.SelectedPluv = table.Random(hg.PluvTown.PluvMats)
-        local text = "<font=ZC_MM_Title><colour=0,100,255,255>EURO</colour>PLUV</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
+        local text = "<font=ZC_MM_Title><colour=64,224,208,255>KOMI</colour>PLUV</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
         return markup.Parse(text)
     end
 
-    local text = "<font=ZC_MM_Title><colour=0,100,255,255>EURO</colour>GRAD</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
+    local text = "<font=ZC_MM_Title><colour=64,224,208,255>KOMI</colour>GRADO</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
     return markup.Parse(text)
 end
 
